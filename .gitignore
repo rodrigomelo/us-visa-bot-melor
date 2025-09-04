@@ -1,0 +1,322 @@
+###############################################################################
+# OS files
+###############################################################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden*
+.nfs*
+
+###############################################################################
+# Editors & IDEs
+###############################################################################
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+out/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim/Neovim
+*.swp
+*.swo
+*.swm
+*~
+.session
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+###############################################################################
+# Logs, caches, temp files
+###############################################################################
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+pip-log.txt
+pip-delete-this-directory.txt
+.cache/
+.tmp/
+temp/
+tmp/
+coverage/
+.nyc_output/
+*.pid
+*.seed
+*.pid.lock
+
+###############################################################################
+# Environment variables and local secrets
+###############################################################################
+.env
+.env.*
+!.env.example
+!.env.sample
+
+###############################################################################
+# Node / JavaScript / TypeScript
+###############################################################################
+node_modules/
+bower_components/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+lib/
+.esbuild/
+.rollup.cache/
+.parcel-cache/
+.next/
+out/
+.nuxt/
+.svelte-kit/
+.storybook-out/
+storybook-static/
+.cache-loader/
+
+# Framework/platform specific
+.vercel/
+.netlify/
+.serverless/
+functions/.netlify/
+firebase-debug.log
+firebase-debug.*
+.now/
+
+# Test runners
+jest-html-reporters-attach/
+cypress/screenshots/
+cypress/videos/
+playwright-report/
+test-results/
+
+# Yarn (Berry) and PnP
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.pnpm-store/
+
+# Package managers and lockfiles (keep the lockfile you actually use)
+# If you only use one, feel free to ignore the others.
+# Uncomment to ignore the others:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb
+
+###############################################################################
+# Python
+###############################################################################
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Build and virtual envs
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+.env/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# Testing/analysis
+.pytest_cache/
+coverage.xml
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.ipynb_checkpoints
+
+# Frameworks
+# Django
+*.sqlite3
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Flask
+instance/
+.webassets-cache
+
+###############################################################################
+# Java / Kotlin (Maven/Gradle)
+###############################################################################
+*.class
+target/
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/*
+!**/src/test/**/*
+
+###############################################################################
+# Go
+###############################################################################
+bin/
+vendor/
+*.exe
+*.test
+*.out
+
+###############################################################################
+# Rust
+###############################################################################
+/target/
+**/*.rs.bk
+Cargo.lock  # Keep or remove depending on library vs application
+
+###############################################################################
+# Ruby
+###############################################################################
+.bundle/
+vendor/bundle/
+log/
+tmp/
+coverage/
+pkg/
+
+###############################################################################
+# PHP / Composer
+###############################################################################
+vendor/
+composer.phar
+
+###############################################################################
+# .NET
+###############################################################################
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+###############################################################################
+# Apple / Xcode / Swift
+###############################################################################
+DerivedData/
+*.xcuserdatad
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.xcworkspace/xcuserdata
+.build/
+
+###############################################################################
+# Android
+###############################################################################
+.gradle/
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+
+###############################################################################
+# Flutter / Dart
+###############################################################################
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+###############################################################################
+# Databases and local data
+###############################################################################
+*.db
+*.sqlite
+*.sqlite3
+*.dmp
+*.bak
+
+###############################################################################
+# Images and design tools (generated caches)
+###############################################################################
+*.sketchworkspace
+*.psd
+*.ai
+
+###############################################################################
+# Terraform
+###############################################################################
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# Keep lock file tracked
+#!.terraform.lock.hcl
+
+###############################################################################
+# Docker
+###############################################################################
+.docker/
+docker-compose.override.yml
+
+###############################################################################
+# Archives and packaged artifacts (optional)
+###############################################################################
+# Uncomment if you don’t intend to commit binary bundles
+# *.zip
+# *.tar
+# *.tar.gz
+# *.tgz
+# *.7z
+
+###############################################################################
+# Misc
+###############################################################################
+# Lockfiles you don’t use (pick your ecosystem)
+# Pipenv/Poetry
+# Pipfile.lock
+# poetry.lock
+
+# Mac quarantine flag files
+*.icloud
